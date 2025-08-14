@@ -52,3 +52,36 @@ It simulates real-world attack scenarios (dictionary-based WPA/WPA2 cracking) an
 - Required Python libraries:
   ```bash
   pip install python-nmap scapy networkx matplotlib jinja2
+
+---
+
+## 📜 Ethical Considerations
+- Tested only on authorized private networks.
+- No unauthorized access or exploitation performed.
+- Complies with ethical hacking guidelines (EC-Council, OWASP).
+- Does not store or transmit personally identifiable information (PII) beyond network metadata.
+- Intended solely for academic and awareness purposes.
+- Any vulnerabilities discovered are for reporting purposes only, not exploitation.
+
+---
+
+🔮 Future Enhancements
+- WPA3 Attack Simulation.
+- Real-time monitoring dashboard for live tracking of threats.
+- Automated patch recommendations based on vulnerability scans.
+- Machine learning models for unknown device type detection.
+- Cross-platform GUI (PyQt or web-based).
+- Cloud-based report storage for centralized access and historical tracking.
+
+---
+
+📄 License
+This project is released under the MIT License – you are free to use, modify, and distribute with attribution, for ethical purposes only.
+
+---
+
+👨‍💻 Author
+
+Gautam Rahul Bhartiya
+B.Tech – Computer Science & Engineering
+Shri Guru Gobind Singhji Institute of Engineering and Technology (SGGSIE&T), Nanded.
