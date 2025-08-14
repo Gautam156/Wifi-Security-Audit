@@ -1,0 +1,14 @@
+from itertools import product
+
+def generate_sggs_guesses():
+    base = ["sggs", "cse", "student", "kaushik"]
+    years = ["2022", "2023", "2024", "2025"]
+    extras = ["@", "#", "123", "321", "!", "00"]
+
+    guesses = []
+    for word in base:
+        for year in years:
+            for extra in extras:
+                guesses.append(f"{word}{year}{extra}")
+                guesses.append(f"{extra}{word}{year}")
+    return guesses
